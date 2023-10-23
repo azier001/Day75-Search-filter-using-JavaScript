@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day75-Search filter using JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-confirmation" id="alertBox">
+      <div class="confirmation">
+        <div class="content">
+          <li id="close"><i class="fa-solid fa-xmark"></i></li>
+          <p>Are you sure to fill this form?</p>
+          <button class="confirm" id="confirm">Confirm</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <form action="" id="form">
+        <h2>GET IN TOUCH</h2>
+        <input
+          type="text"
+          class="inputField"
+          id="name"
+          placeholder="Enter Your Name"
+          required
+        />
+        <input
+          type="email"
+          class="inputField"
+          id="email"
+          placeholder="Enter Your Email"
+          required
+        />
+        <input
+          type="phone"
+          class="inputField"
+          id="phone"
+          placeholder="Enter Your Phone Number"
+          required
+        />
+        <input
+          type="text"
+          class="inputField"
+          id="coupen"
+          placeholder="Enter Coupen Code"
+          required
+        />
+
+        <textarea
+          name=""
+          id="message"
+          rows="4"
+          placeholder="Write Something"
+          class="inputField"
+        ></textarea>
+        <button type="submit" id="send">Send</button>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
